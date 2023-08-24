@@ -1,0 +1,2572 @@
+[
+  {
+    "receptionist": [
+      {
+        "id": "054ca21a-dc7c-4d35-b249-dacc2c9c8ce9",
+        "shift": "Morning",
+        "created_at": "2023-08-23T15:40:00.452Z",
+        "updated_at": "2023-08-23T14:07:15.514Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63f488ab-fd4e-4c6a-b69b-10690fc7fe02",
+        "shift": "Afternoon",
+        "created_at": "2023-08-23T07:48:26.950Z",
+        "updated_at": "2023-08-23T23:53:15.058Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9190821a-f676-4561-9a49-116379b2c15a",
+        "shift": "Evening",
+        "created_at": "2023-08-23T10:28:26.290Z",
+        "updated_at": "2023-08-23T16:55:00.544Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4422ec8e-7043-4ae9-971d-743759083823",
+        "shift": "Night",
+        "created_at": "2023-08-23T20:49:13.396Z",
+        "updated_at": "2023-08-23T15:59:51.760Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bd284a0-356c-4a44-98c2-8c102bd8b465",
+        "shift": "Weekend",
+        "created_at": "2023-08-23T06:42:05.010Z",
+        "updated_at": "2023-08-23T05:29:40.011Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "7c25ef84-1bf2-4308-b2d3-37dfc0d84623",
+        "dob": "2023-08-23T09:16:07.502Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "created_at": "2023-08-23T11:31:51.368Z",
+        "updated_at": "2023-08-23T16:15:40.789Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d53ef8a-ba54-4852-aab3-3238a9af7296",
+        "dob": "2023-08-23T21:19:09.243Z",
+        "gender": "Female",
+        "medical_history": "Allergic to penicillin",
+        "created_at": "2023-08-23T05:24:34.163Z",
+        "updated_at": "2023-08-23T20:09:30.225Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d6950e0-d831-4dda-a797-c38cacf7a818",
+        "dob": "2023-08-23T18:53:39.264Z",
+        "gender": "Other",
+        "medical_history": "History of asthma",
+        "created_at": "2023-08-23T12:12:01.091Z",
+        "updated_at": "2023-08-23T11:05:06.988Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98ecbb28-093f-4cb1-b8da-d2b0658414dd",
+        "dob": "2023-08-23T15:41:31.594Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Diagnosed with diabetes",
+        "created_at": "2023-08-23T07:08:08.727Z",
+        "updated_at": "2023-08-24T01:40:37.732Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b90ccecf-05d5-46bb-9a20-31b13f2fd24c",
+        "dob": "2023-08-23T21:07:30.042Z",
+        "gender": "Unknown",
+        "medical_history": "Previous surgery for appendicitis",
+        "created_at": "2023-08-23T10:52:11.268Z",
+        "updated_at": "2023-08-23T23:46:58.274Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "7a7ee699-5843-4f58-9fdc-c3829984409b",
+        "specialization": "Cardiology",
+        "experience": 90948,
+        "qualification": "MD",
+        "availability": true,
+        "created_at": "2023-08-23T15:44:20.065Z",
+        "updated_at": "2023-08-23T11:26:34.719Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf66accf-50fc-4208-ac81-64cc4bb1febe",
+        "specialization": "Dermatology",
+        "experience": 31193,
+        "qualification": "DO",
+        "availability": false,
+        "created_at": "2023-08-23T05:45:12.516Z",
+        "updated_at": "2023-08-23T21:29:32.324Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d840a8e4-a35f-476a-a64a-4649e2816eca",
+        "specialization": "Gastroenterology",
+        "experience": 42700,
+        "qualification": "MBBS",
+        "availability": false,
+        "created_at": "2023-08-23T19:07:40.662Z",
+        "updated_at": "2023-08-23T14:59:19.856Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "488dd065-72e5-436a-a9bc-98b9ccb31cdf",
+        "specialization": "Neurology",
+        "experience": 47974,
+        "qualification": "PhD",
+        "availability": true,
+        "created_at": "2023-08-23T23:44:05.923Z",
+        "updated_at": "2023-08-23T19:46:01.207Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71e6e8b9-3c1d-4752-9140-776adffcb63a",
+        "specialization": "Orthopedics",
+        "experience": 552,
+        "qualification": "DDS",
+        "availability": true,
+        "created_at": "2023-08-24T03:46:36.779Z",
+        "updated_at": "2023-08-23T17:54:11.815Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "36d227b4-8880-4027-91f4-a5fbbdc4a865",
+        "date": "2023-08-23T18:19:53.536Z",
+        "time": "2023-08-24T04:36:03.414Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-23T13:40:26.576Z",
+        "updated_at": "2023-08-23T20:24:03.017Z",
+        "healthcare_provider_id": "bf66accf-50fc-4208-ac81-64cc4bb1febe",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c659269-45c5-42bd-96e5-062f8fd68a52",
+        "date": "2023-08-23T07:13:20.969Z",
+        "time": "2023-08-23T18:49:35.844Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T07:12:22.401Z",
+        "updated_at": "2023-08-23T16:06:18.876Z",
+        "healthcare_provider_id": "d840a8e4-a35f-476a-a64a-4649e2816eca",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad685fd3-c25c-4b50-b205-81929ef3dd39",
+        "date": "2023-08-23T21:45:14.436Z",
+        "time": "2023-08-23T12:28:32.826Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T04:41:36.578Z",
+        "updated_at": "2023-08-24T02:05:43.349Z",
+        "healthcare_provider_id": "71e6e8b9-3c1d-4752-9140-776adffcb63a",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36beae68-a366-435f-9c43-f1b66a2bfd3d",
+        "date": "2023-08-24T03:38:41.547Z",
+        "time": "2023-08-23T05:27:37.876Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T13:59:56.171Z",
+        "updated_at": "2023-08-23T18:42:53.271Z",
+        "healthcare_provider_id": "488dd065-72e5-436a-a9bc-98b9ccb31cdf",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "718492e9-6036-493a-97a5-a6db669d41f1",
+        "date": "2023-08-24T02:13:20.005Z",
+        "time": "2023-08-23T07:06:23.283Z",
+        "status": "No-show",
+        "created_at": "2023-08-23T06:44:46.184Z",
+        "updated_at": "2023-08-23T11:46:23.778Z",
+        "healthcare_provider_id": "bf66accf-50fc-4208-ac81-64cc4bb1febe",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6a517080-0cf7-4103-86ba-00f428d29eff",
+        "email": "Keyon8@yahoo.com",
+        "firstName": "Kali",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46042803",
+        "tenantId": null
+      },
+      {
+        "reference": "f4ba0463-d704-4ebd-a78b-50dabbb17f1d",
+        "email": "Ludwig.Franey19@gmail.com",
+        "firstName": "Roslyn",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89933750",
+        "tenantId": null
+      },
+      {
+        "reference": "4f63a856-0587-4cd4-a2c4-cd6cab514f54",
+        "email": "Enoch_Bernhard@yahoo.com",
+        "firstName": "Bryana",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43784772",
+        "tenantId": null
+      },
+      {
+        "reference": "4be90ff3-de27-43c0-89a7-7c172473221f",
+        "email": "Jessika_Kilback@hotmail.com",
+        "firstName": "Barney",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39182466",
+        "tenantId": null
+      },
+      {
+        "reference": "1eb68479-e90a-4cec-8a1e-b9ebaf6f80a8",
+        "email": "Toney_Hahn14@hotmail.com",
+        "firstName": "Neha",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38979981",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "receptionist": [
+      {
+        "id": "bc2570e6-752a-4437-b135-e9b3a670fb32",
+        "shift": "Morning",
+        "created_at": "2023-08-23T15:50:53.506Z",
+        "updated_at": "2023-08-23T19:50:02.574Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6f96fbc-bc85-469c-8cf8-2ff0238dd129",
+        "shift": "Afternoon",
+        "created_at": "2023-08-23T17:50:09.055Z",
+        "updated_at": "2023-08-23T10:06:16.345Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24f5addd-caa4-4a62-9004-af573269a349",
+        "shift": "Evening",
+        "created_at": "2023-08-23T12:21:25.632Z",
+        "updated_at": "2023-08-23T12:25:10.210Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea4e849b-efe9-46a6-a47e-6aaa15a38f9d",
+        "shift": "Night",
+        "created_at": "2023-08-24T04:50:49.406Z",
+        "updated_at": "2023-08-23T07:17:57.881Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76ea3038-28a8-4169-94ac-6ae783a54a36",
+        "shift": "Weekend",
+        "created_at": "2023-08-23T18:02:43.433Z",
+        "updated_at": "2023-08-23T21:49:44.799Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "6deed6a1-ad6f-43d9-8866-01acb09ca72f",
+        "dob": "2023-08-23T17:29:42.495Z",
+        "gender": "Male",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-08-23T14:00:18.547Z",
+        "updated_at": "2023-08-23T17:44:43.177Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d99f0d9-3cd8-42b7-b785-81763aba2fe4",
+        "dob": "2023-08-23T17:06:49.592Z",
+        "gender": "Female",
+        "medical_history": "Asthma",
+        "created_at": "2023-08-24T00:35:22.408Z",
+        "updated_at": "2023-08-23T19:45:31.175Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9521edda-778b-4f13-8127-8d5d63764bf2",
+        "dob": "2023-08-24T01:38:03.415Z",
+        "gender": "Non-binary",
+        "medical_history": "Diabetes",
+        "created_at": "2023-08-23T11:47:48.734Z",
+        "updated_at": "2023-08-23T11:01:15.778Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a7e47f9-8562-4cb7-8acb-723245ba22c4",
+        "dob": "2023-08-23T17:39:09.488Z",
+        "gender": "Prefer not to say",
+        "medical_history": "High blood pressure",
+        "created_at": "2023-08-23T13:01:56.031Z",
+        "updated_at": "2023-08-23T07:39:55.146Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bde5b911-1aa3-4d4d-9613-2ea676a73a14",
+        "dob": "2023-08-23T13:52:53.834Z",
+        "gender": "Other",
+        "medical_history": "Allergies",
+        "created_at": "2023-08-23T05:12:42.134Z",
+        "updated_at": "2023-08-23T17:03:14.637Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "9ece718b-438f-4af2-b654-32a21c679168",
+        "specialization": "Cardiology",
+        "experience": 69835,
+        "qualification": "MD",
+        "availability": true,
+        "created_at": "2023-08-23T10:40:26.451Z",
+        "updated_at": "2023-08-23T09:10:07.140Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7bf901f-f100-4edc-91a4-d6c6b5c7324a",
+        "specialization": "Dermatology",
+        "experience": 20630,
+        "qualification": "DO",
+        "availability": false,
+        "created_at": "2023-08-23T06:58:56.079Z",
+        "updated_at": "2023-08-24T04:05:16.426Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fea56452-5d3d-46a5-a6a5-4be18ebfc23e",
+        "specialization": "Orthopedics",
+        "experience": 84263,
+        "qualification": "MBBS",
+        "availability": true,
+        "created_at": "2023-08-23T22:04:51.650Z",
+        "updated_at": "2023-08-23T22:27:51.425Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "306ebabd-aeff-4caf-888b-d3afa5f85f44",
+        "specialization": "Pediatrics",
+        "experience": 85760,
+        "qualification": "PhD",
+        "availability": false,
+        "created_at": "2023-08-23T11:54:40.995Z",
+        "updated_at": "2023-08-23T22:45:03.983Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1e96738-1a1a-4ad9-833a-ae2e0825370c",
+        "specialization": "Psychiatry",
+        "experience": 83309,
+        "qualification": "DDS",
+        "availability": false,
+        "created_at": "2023-08-24T03:49:37.931Z",
+        "updated_at": "2023-08-23T15:28:17.763Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "411f7a8c-5cdf-44c8-be67-76f3e442bfe1",
+        "date": "2023-08-23T18:09:10.733Z",
+        "time": "2023-08-23T12:14:53.163Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-23T17:01:07.254Z",
+        "updated_at": "2023-08-23T15:34:37.285Z",
+        "healthcare_provider_id": "a7bf901f-f100-4edc-91a4-d6c6b5c7324a",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "edf10b2c-9a85-4a19-b50f-7fd72de3a571",
+        "date": "2023-08-23T07:21:57.984Z",
+        "time": "2023-08-23T06:40:39.677Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T13:34:15.884Z",
+        "updated_at": "2023-08-24T02:39:47.582Z",
+        "healthcare_provider_id": "d1e96738-1a1a-4ad9-833a-ae2e0825370c",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4635d450-75f3-47c4-960b-f5a91785484c",
+        "date": "2023-08-23T18:23:11.959Z",
+        "time": "2023-08-24T02:29:14.974Z",
+        "status": "Completed",
+        "created_at": "2023-08-23T05:43:09.940Z",
+        "updated_at": "2023-08-23T16:19:30.269Z",
+        "healthcare_provider_id": "fea56452-5d3d-46a5-a6a5-4be18ebfc23e",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bce2c41-9666-44eb-8e85-04778b3d2d10",
+        "date": "2023-08-23T22:26:08.948Z",
+        "time": "2023-08-23T09:24:49.356Z",
+        "status": "Pending",
+        "created_at": "2023-08-23T20:58:26.032Z",
+        "updated_at": "2023-08-24T01:23:24.265Z",
+        "healthcare_provider_id": "306ebabd-aeff-4caf-888b-d3afa5f85f44",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "531658d1-58a9-41e5-9960-0f0f8dbc0149",
+        "date": "2023-08-24T04:16:50.038Z",
+        "time": "2023-08-23T10:14:28.914Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T15:54:46.202Z",
+        "updated_at": "2023-08-23T09:19:33.182Z",
+        "healthcare_provider_id": "fea56452-5d3d-46a5-a6a5-4be18ebfc23e",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c4dc51a6-50d8-445d-b121-9affb8b0496b",
+        "email": "Julie50@yahoo.com",
+        "firstName": "Enid",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/328.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "21370ee6-1437-4490-b45b-0dcd4318676c",
+        "email": "Julien_Fritsch67@hotmail.com",
+        "firstName": "Arnulfo",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24045978",
+        "tenantId": null
+      },
+      {
+        "reference": "a567745e-eaa6-411f-b879-26041e5808a3",
+        "email": "Barrett_Homenick@gmail.com",
+        "firstName": "Stuart",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84524377",
+        "tenantId": null
+      },
+      {
+        "reference": "72a5ad7c-68a5-4518-a884-7273b5c8a085",
+        "email": "Amos.Kovacek38@yahoo.com",
+        "firstName": "Norwood",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/594.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e2262bf4-e70e-4493-85ca-55e736c96052",
+        "email": "Giuseppe1@gmail.com",
+        "firstName": "Ramon",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83482578",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "receptionist": [
+      {
+        "id": "1b282bc3-1187-454f-bba9-2e5a3c958cfc",
+        "shift": "Morning",
+        "created_at": "2023-08-23T13:18:55.510Z",
+        "updated_at": "2023-08-23T14:05:18.447Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4880fe2c-fac9-41ee-9091-61d515ca51e8",
+        "shift": "Afternoon",
+        "created_at": "2023-08-23T19:44:16.272Z",
+        "updated_at": "2023-08-24T01:27:30.128Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95c0d7d7-c250-426d-a39c-6e3d5a42d831",
+        "shift": "Evening",
+        "created_at": "2023-08-23T20:52:07.861Z",
+        "updated_at": "2023-08-23T14:05:00.316Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e210ccd2-7cc6-438f-8768-ed15ac0718c9",
+        "shift": "Night",
+        "created_at": "2023-08-23T16:40:47.685Z",
+        "updated_at": "2023-08-23T07:57:27.457Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73aceaa6-eecc-497b-86c4-dc8131e817d7",
+        "shift": "Weekend",
+        "created_at": "2023-08-23T19:47:30.221Z",
+        "updated_at": "2023-08-23T18:13:15.008Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "1b2834b8-7d52-4dec-9f9d-884e4aab69a3",
+        "dob": "2023-08-23T07:11:46.092Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "created_at": "2023-08-23T14:03:35.018Z",
+        "updated_at": "2023-08-24T02:33:41.161Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cfcecdd-f8dd-4c09-a3f2-bcefd24fda20",
+        "dob": "2023-08-23T16:40:52.985Z",
+        "gender": "Female",
+        "medical_history": "Allergic to penicillin",
+        "created_at": "2023-08-23T14:37:03.020Z",
+        "updated_at": "2023-08-23T09:01:22.239Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84a84f50-7f9f-48d7-9010-584b4fe9d9ef",
+        "dob": "2023-08-23T06:25:49.566Z",
+        "gender": "Other",
+        "medical_history": "Previous surgery for appendicitis",
+        "created_at": "2023-08-23T11:08:55.489Z",
+        "updated_at": "2023-08-23T05:02:50.336Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bde856cc-7f90-43b4-810b-e73b286b5bad",
+        "dob": "2023-08-24T00:19:48.914Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Diagnosed with diabetes",
+        "created_at": "2023-08-23T11:55:14.281Z",
+        "updated_at": "2023-08-23T17:43:36.483Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cc14939-74cd-4421-94d5-493a5a73487e",
+        "dob": "2023-08-23T21:13:31.537Z",
+        "gender": "Unknown",
+        "medical_history": "History of asthma",
+        "created_at": "2023-08-23T14:13:42.722Z",
+        "updated_at": "2023-08-23T15:22:43.646Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "7661bf88-ace3-4bf5-b40e-2448019c5be6",
+        "specialization": "Cardiology",
+        "experience": 44034,
+        "qualification": "MD",
+        "availability": false,
+        "created_at": "2023-08-23T15:47:18.339Z",
+        "updated_at": "2023-08-23T07:11:42.652Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2fa3d81-9d11-4776-afe8-3f67cea13b3b",
+        "specialization": "Dermatology",
+        "experience": 9392,
+        "qualification": "DO",
+        "availability": false,
+        "created_at": "2023-08-23T10:55:41.649Z",
+        "updated_at": "2023-08-24T03:44:26.020Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "066ee31f-5b96-47ef-ae6c-8efb9d1f0ec3",
+        "specialization": "Gastroenterology",
+        "experience": 74015,
+        "qualification": "MBBS",
+        "availability": true,
+        "created_at": "2023-08-24T03:25:03.606Z",
+        "updated_at": "2023-08-23T11:14:28.675Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b84e0142-be27-4f37-9fde-af1ce2542474",
+        "specialization": "Neurology",
+        "experience": 46594,
+        "qualification": "PhD",
+        "availability": false,
+        "created_at": "2023-08-23T11:54:12.134Z",
+        "updated_at": "2023-08-23T10:38:11.493Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7d22d47-c8ca-4896-9029-3233eb9a477e",
+        "specialization": "Orthopedics",
+        "experience": 68911,
+        "qualification": "DDS",
+        "availability": true,
+        "created_at": "2023-08-24T03:45:08.381Z",
+        "updated_at": "2023-08-23T17:34:31.238Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "2b55ffb5-d89b-4910-b6e0-5af283a7b335",
+        "date": "2023-08-24T03:32:57.958Z",
+        "time": "2023-08-23T21:23:40.171Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-23T23:42:52.033Z",
+        "updated_at": "2023-08-23T06:22:40.088Z",
+        "healthcare_provider_id": "7661bf88-ace3-4bf5-b40e-2448019c5be6",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be42b7c1-3da2-498a-9c35-fd68f1b6639d",
+        "date": "2023-08-23T14:34:16.602Z",
+        "time": "2023-08-23T20:55:16.271Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T12:47:49.130Z",
+        "updated_at": "2023-08-23T07:51:22.390Z",
+        "healthcare_provider_id": "d7d22d47-c8ca-4896-9029-3233eb9a477e",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15dcf8d8-7835-40a3-845d-36e54a680c75",
+        "date": "2023-08-23T06:03:18.201Z",
+        "time": "2023-08-23T12:06:04.888Z",
+        "status": "Completed",
+        "created_at": "2023-08-23T17:42:42.759Z",
+        "updated_at": "2023-08-23T22:25:24.435Z",
+        "healthcare_provider_id": "d7d22d47-c8ca-4896-9029-3233eb9a477e",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a04a5f7f-402b-4fbd-9f0f-68b4b1dcb11d",
+        "date": "2023-08-23T12:27:49.138Z",
+        "time": "2023-08-23T08:17:42.099Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T23:00:56.660Z",
+        "updated_at": "2023-08-24T02:44:15.873Z",
+        "healthcare_provider_id": "7661bf88-ace3-4bf5-b40e-2448019c5be6",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "670f5a84-9f46-436f-ba13-4d3aa1381227",
+        "date": "2023-08-23T18:48:05.352Z",
+        "time": "2023-08-24T00:37:54.049Z",
+        "status": "No-show",
+        "created_at": "2023-08-23T16:46:30.107Z",
+        "updated_at": "2023-08-23T17:33:46.601Z",
+        "healthcare_provider_id": "d7d22d47-c8ca-4896-9029-3233eb9a477e",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b338e127-dd45-4e73-8fe7-d178861c8332",
+        "email": "Wilfred.Konopelski@yahoo.com",
+        "firstName": "Monroe",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/805.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3e4067df-2c2c-46a1-93b3-ff4defeda7de",
+        "email": "Lizzie.Haley50@hotmail.com",
+        "firstName": "Jana",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/44.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "099ecd79-ded5-4f13-b178-ff3ad6353047",
+        "email": "Dejah_Hills@yahoo.com",
+        "firstName": "Cortez",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/852.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9a9278e-6133-42d6-adcf-52f53c99809d",
+        "email": "Rhiannon_Wyman@gmail.com",
+        "firstName": "Georgette",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1009.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "891b5cac-6d20-436d-be5d-d706017fe0f0",
+        "email": "Lue.Zulauf94@gmail.com",
+        "firstName": "Viviane",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/512.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "receptionist": [
+      {
+        "id": "e9445213-300c-4552-bdcf-0f01cd517a59",
+        "shift": "Morning",
+        "created_at": "2023-08-24T03:06:54.603Z",
+        "updated_at": "2023-08-23T20:27:12.346Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a2a2ed5-f359-406a-9014-11e1d7025520",
+        "shift": "Afternoon",
+        "created_at": "2023-08-23T06:15:47.628Z",
+        "updated_at": "2023-08-23T14:45:32.354Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a80d3242-f635-4f55-b8e5-36aaaeed17c2",
+        "shift": "Evening",
+        "created_at": "2023-08-23T08:03:59.293Z",
+        "updated_at": "2023-08-24T02:05:15.247Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7eceeb75-d497-4847-8a95-4071d6d626cb",
+        "shift": "Night",
+        "created_at": "2023-08-23T07:55:22.609Z",
+        "updated_at": "2023-08-24T03:04:30.886Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19a02cb4-c6e8-4b99-810c-0e6cb784f6ae",
+        "shift": "Weekend",
+        "created_at": "2023-08-23T18:51:29.683Z",
+        "updated_at": "2023-08-23T10:12:43.400Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "8c69935d-4f94-46e0-9037-324b0331c691",
+        "dob": "2023-08-23T14:04:28.614Z",
+        "gender": "Male",
+        "medical_history": "Allergies",
+        "created_at": "2023-08-23T10:17:26.789Z",
+        "updated_at": "2023-08-23T23:17:14.828Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81fb066f-45ea-4d6f-93c7-824cf1e2e95a",
+        "dob": "2023-08-23T08:34:01.843Z",
+        "gender": "Female",
+        "medical_history": "Asthma",
+        "created_at": "2023-08-23T21:02:46.011Z",
+        "updated_at": "2023-08-23T11:29:07.134Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84488775-9533-4abd-9ac3-f58f80888e33",
+        "dob": "2023-08-23T23:08:03.271Z",
+        "gender": "Other",
+        "medical_history": "Diabetes",
+        "created_at": "2023-08-23T18:10:58.840Z",
+        "updated_at": "2023-08-23T06:03:00.208Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20cf34da-309c-41d0-804a-801adee7fe3d",
+        "dob": "2023-08-23T18:34:51.686Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Heart disease",
+        "created_at": "2023-08-23T05:47:19.634Z",
+        "updated_at": "2023-08-24T01:45:22.567Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c35c0cf6-0b1b-4b36-8dae-033eb971d474",
+        "dob": "2023-08-23T05:07:50.549Z",
+        "gender": "Unknown",
+        "medical_history": "High blood pressure",
+        "created_at": "2023-08-23T22:26:10.518Z",
+        "updated_at": "2023-08-23T10:27:05.017Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "043379dd-a45b-412b-996a-795e55c6211c",
+        "specialization": "Cardiology",
+        "experience": 89901,
+        "qualification": "MD",
+        "availability": true,
+        "created_at": "2023-08-23T17:22:31.995Z",
+        "updated_at": "2023-08-23T08:11:42.497Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8d9127d-8350-409a-8a20-68d82f5b3b30",
+        "specialization": "Dermatology",
+        "experience": 83628,
+        "qualification": "DO",
+        "availability": false,
+        "created_at": "2023-08-23T19:57:58.801Z",
+        "updated_at": "2023-08-23T10:50:47.702Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30fc0d90-09fa-4546-8597-2fa7f37eaf48",
+        "specialization": "Orthopedics",
+        "experience": 60268,
+        "qualification": "MBBS",
+        "availability": false,
+        "created_at": "2023-08-24T00:31:48.817Z",
+        "updated_at": "2023-08-23T19:02:16.766Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8776b749-170e-4efb-9b16-40ff8d4749a6",
+        "specialization": "Pediatrics",
+        "experience": 46679,
+        "qualification": "PhD",
+        "availability": false,
+        "created_at": "2023-08-24T02:16:59.783Z",
+        "updated_at": "2023-08-23T08:02:17.584Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c70c6af-26d1-4eda-9af6-ff8e43b88ec9",
+        "specialization": "Psychiatry",
+        "experience": 78077,
+        "qualification": "DDS",
+        "availability": true,
+        "created_at": "2023-08-23T07:18:47.249Z",
+        "updated_at": "2023-08-23T13:24:13.276Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "ea1ca01f-9a29-4f73-804f-dab59adf3951",
+        "date": "2023-08-24T04:53:28.761Z",
+        "time": "2023-08-23T09:25:13.859Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-23T15:40:28.369Z",
+        "updated_at": "2023-08-23T22:03:05.655Z",
+        "healthcare_provider_id": "8776b749-170e-4efb-9b16-40ff8d4749a6",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "673bea39-619b-4c84-bafd-67c61c7c454c",
+        "date": "2023-08-24T01:19:22.253Z",
+        "time": "2023-08-23T17:23:21.083Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T09:25:15.721Z",
+        "updated_at": "2023-08-23T23:20:38.350Z",
+        "healthcare_provider_id": "8776b749-170e-4efb-9b16-40ff8d4749a6",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6a892e5-5994-4994-bd7a-6f5436afef3c",
+        "date": "2023-08-24T03:16:51.772Z",
+        "time": "2023-08-23T21:12:34.098Z",
+        "status": "Completed",
+        "created_at": "2023-08-23T10:08:51.594Z",
+        "updated_at": "2023-08-23T22:42:01.924Z",
+        "healthcare_provider_id": "1c70c6af-26d1-4eda-9af6-ff8e43b88ec9",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f89ad379-4bbb-49aa-9434-7c393a54d478",
+        "date": "2023-08-23T09:10:29.139Z",
+        "time": "2023-08-24T00:52:37.653Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T18:17:04.852Z",
+        "updated_at": "2023-08-23T07:03:18.231Z",
+        "healthcare_provider_id": "8776b749-170e-4efb-9b16-40ff8d4749a6",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbd02ce4-b4bb-4c24-b042-1ffc0ed82dc4",
+        "date": "2023-08-23T15:50:16.458Z",
+        "time": "2023-08-24T01:59:04.441Z",
+        "status": "No show",
+        "created_at": "2023-08-23T14:11:18.048Z",
+        "updated_at": "2023-08-23T22:01:08.310Z",
+        "healthcare_provider_id": "1c70c6af-26d1-4eda-9af6-ff8e43b88ec9",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d1e7402c-cb9b-4572-9738-d26fde6c61a4",
+        "email": "Joan_Williamson48@hotmail.com",
+        "firstName": "Brown",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82444721",
+        "tenantId": null
+      },
+      {
+        "reference": "733f8fee-8c74-4d5c-bbe2-4556b93068bf",
+        "email": "Elmo.Graham@yahoo.com",
+        "firstName": "May",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86054079",
+        "tenantId": null
+      },
+      {
+        "reference": "b308203d-5e09-4a2c-ab8c-4d4a56177db1",
+        "email": "Mervin75@yahoo.com",
+        "firstName": "Hector",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53567804",
+        "tenantId": null
+      },
+      {
+        "reference": "c9f66f95-d381-4448-a018-d9af84dba2bf",
+        "email": "Elmo.Dicki@gmail.com",
+        "firstName": "Eldred",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/592.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13045b4f-de57-49b5-8a37-d16397245eed",
+        "email": "Lenore_Larson50@yahoo.com",
+        "firstName": "Candido",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51595226",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "receptionist": [
+      {
+        "id": "9973e352-a5b5-41da-ab1a-e7ba8e62db12",
+        "shift": "Morning",
+        "created_at": "2023-08-23T13:12:51.098Z",
+        "updated_at": "2023-08-23T23:07:35.589Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6dc4b5a7-651c-4ca9-b93e-829ce7e63ed3",
+        "shift": "Afternoon",
+        "created_at": "2023-08-23T15:36:06.717Z",
+        "updated_at": "2023-08-24T03:16:20.065Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a89303cb-1258-422b-9495-6af141d42962",
+        "shift": "Evening",
+        "created_at": "2023-08-23T18:34:45.195Z",
+        "updated_at": "2023-08-23T06:12:19.001Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7cc1d3f-8740-4d64-b101-209cbd9f1115",
+        "shift": "Night",
+        "created_at": "2023-08-24T01:27:27.063Z",
+        "updated_at": "2023-08-24T01:45:36.769Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91571efe-33ac-4aba-9dfa-291f591c98dc",
+        "shift": "Weekend",
+        "created_at": "2023-08-23T14:58:54.826Z",
+        "updated_at": "2023-08-23T16:55:32.193Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "a1f66d28-6068-4427-86e4-2a912aad2b03",
+        "dob": "2023-08-23T20:14:26.761Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "created_at": "2023-08-23T06:17:24.674Z",
+        "updated_at": "2023-08-24T04:32:17.531Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c4a6b0a-9212-4e43-ac3c-622d791dc9ce",
+        "dob": "2023-08-23T08:18:13.051Z",
+        "gender": "Female",
+        "medical_history": "Allergies: None",
+        "created_at": "2023-08-23T20:20:32.575Z",
+        "updated_at": "2023-08-23T19:15:29.898Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad8443d3-4ede-4766-b25c-35f3f62f7e1f",
+        "dob": "2023-08-24T03:12:16.866Z",
+        "gender": "Non-binary",
+        "medical_history": "Previous surgeries: None",
+        "created_at": "2023-08-24T02:54:43.400Z",
+        "updated_at": "2023-08-23T08:25:12.031Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da6d129d-39d0-41d9-a721-dbf457115676",
+        "dob": "2023-08-24T03:23:20.484Z",
+        "gender": "Prefer not to say",
+        "medical_history": "Chronic conditions: Hypertension",
+        "created_at": "2023-08-23T05:41:30.849Z",
+        "updated_at": "2023-08-23T23:45:43.536Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c403756a-c24e-4a20-a8bc-d0eb4d69c30d",
+        "dob": "2023-08-23T07:17:55.095Z",
+        "gender": "Other",
+        "medical_history": "Family history: Diabetes",
+        "created_at": "2023-08-23T13:42:52.442Z",
+        "updated_at": "2023-08-23T16:53:40.126Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "4330f9ee-f316-4873-8ed1-dff6b39d05f8",
+        "specialization": "Cardiology",
+        "experience": 1548,
+        "qualification": "MD",
+        "availability": false,
+        "created_at": "2023-08-23T12:13:49.918Z",
+        "updated_at": "2023-08-23T22:40:52.325Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "383a724a-9744-4c96-8ef6-d0b661263270",
+        "specialization": "Pediatrics",
+        "experience": 57464,
+        "qualification": "DO",
+        "availability": true,
+        "created_at": "2023-08-23T18:24:46.918Z",
+        "updated_at": "2023-08-24T02:58:24.389Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cab1a66-fa13-412c-ab6a-5c8bf6866bd9",
+        "specialization": "Dermatology",
+        "experience": 90530,
+        "qualification": "MBBS",
+        "availability": false,
+        "created_at": "2023-08-23T09:34:40.659Z",
+        "updated_at": "2023-08-23T18:08:01.310Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c362efb-5052-4baf-b139-c03b5781e00f",
+        "specialization": "Orthopedics",
+        "experience": 36309,
+        "qualification": "PhD",
+        "availability": true,
+        "created_at": "2023-08-23T17:30:05.979Z",
+        "updated_at": "2023-08-23T11:41:22.218Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0aedded-2153-408f-84e9-944728184574",
+        "specialization": "Ophthalmology",
+        "experience": 2535,
+        "qualification": "DDS",
+        "availability": false,
+        "created_at": "2023-08-23T09:37:05.362Z",
+        "updated_at": "2023-08-23T16:37:24.109Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "ff74bd5f-377b-4969-91e3-1ce9813a2128",
+        "date": "2023-08-23T21:56:30.084Z",
+        "time": "2023-08-24T01:43:37.437Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T02:27:30.829Z",
+        "updated_at": "2023-08-23T20:07:07.060Z",
+        "healthcare_provider_id": "5cab1a66-fa13-412c-ab6a-5c8bf6866bd9",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9a1649e-6998-4f94-a53e-51c1aef5badc",
+        "date": "2023-08-23T22:52:25.139Z",
+        "time": "2023-08-23T19:23:01.533Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T21:35:48.296Z",
+        "updated_at": "2023-08-23T11:42:45.653Z",
+        "healthcare_provider_id": "b0aedded-2153-408f-84e9-944728184574",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69314ece-7fc3-45c1-9b14-b42110f6f4ff",
+        "date": "2023-08-23T11:44:44.209Z",
+        "time": "2023-08-24T00:33:12.380Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T04:31:49.708Z",
+        "updated_at": "2023-08-24T04:57:40.291Z",
+        "healthcare_provider_id": "5cab1a66-fa13-412c-ab6a-5c8bf6866bd9",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77e21f41-41c9-4fd0-b0e5-0c98faecc7bb",
+        "date": "2023-08-23T21:12:48.392Z",
+        "time": "2023-08-23T22:42:41.891Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T20:12:48.675Z",
+        "updated_at": "2023-08-23T09:18:52.144Z",
+        "healthcare_provider_id": "5cab1a66-fa13-412c-ab6a-5c8bf6866bd9",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59476cb4-9c8b-43c2-a7d5-bf549ec8b4cd",
+        "date": "2023-08-24T03:45:31.075Z",
+        "time": "2023-08-23T18:18:00.039Z",
+        "status": "No-show",
+        "created_at": "2023-08-23T06:45:03.756Z",
+        "updated_at": "2023-08-23T15:10:47.837Z",
+        "healthcare_provider_id": "5cab1a66-fa13-412c-ab6a-5c8bf6866bd9",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "18e7d939-4c5c-42ce-b6b9-066a4639367f",
+        "email": "Thaddeus_Howell@gmail.com",
+        "firstName": "Arch",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/166.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9e399539-9d13-456e-a0cb-0f82585aa160",
+        "email": "Dominique87@hotmail.com",
+        "firstName": "Layla",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1146.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79d47ff5-f802-462d-940d-46fcd1a9456d",
+        "email": "Isai97@gmail.com",
+        "firstName": "Carmelo",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21064783",
+        "tenantId": null
+      },
+      {
+        "reference": "f5d4c893-81c1-430f-8241-07f3333b6af9",
+        "email": "Gwen.Goodwin41@gmail.com",
+        "firstName": "Haylie",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1228.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f3d9ecbe-dcd4-4b19-b4ff-7f51d676bd81",
+        "email": "Sonia69@yahoo.com",
+        "firstName": "Libby",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1205.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "receptionist": [
+      {
+        "id": "4ce86a96-dd92-40c1-bd7e-dfbbae46a04c",
+        "shift": "Morning",
+        "created_at": "2023-08-23T21:07:08.450Z",
+        "updated_at": "2023-08-23T23:11:28.362Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83baef41-b416-40ba-834a-bf8d571a0515",
+        "shift": "Afternoon",
+        "created_at": "2023-08-23T07:47:22.581Z",
+        "updated_at": "2023-08-23T13:56:13.180Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d6fc34f-ce33-4a96-a45c-d7b287b2ffb1",
+        "shift": "Evening",
+        "created_at": "2023-08-23T15:27:52.017Z",
+        "updated_at": "2023-08-24T02:45:40.694Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c63940f-a604-4de2-8a4e-d74297712b18",
+        "shift": "Night",
+        "created_at": "2023-08-23T07:38:47.070Z",
+        "updated_at": "2023-08-24T00:53:54.539Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25058cc3-95f1-4aca-98aa-82c88e3bd2fb",
+        "shift": "Weekend",
+        "created_at": "2023-08-23T13:53:58.330Z",
+        "updated_at": "2023-08-24T02:27:44.057Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "6f202df7-4abc-4eec-b5dd-754e35c0d1c7",
+        "dob": "2023-08-23T13:07:26.840Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "created_at": "2023-08-23T05:02:01.334Z",
+        "updated_at": "2023-08-23T06:08:49.258Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "886b9508-0c96-4c76-a317-fd5546d11cbc",
+        "dob": "2023-08-23T14:51:21.886Z",
+        "gender": "Female",
+        "medical_history": "Asthma",
+        "created_at": "2023-08-23T15:01:08.347Z",
+        "updated_at": "2023-08-24T01:37:11.142Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "321a8192-cda4-4c7b-9e10-1bf59b2dac76",
+        "dob": "2023-08-23T20:29:34.579Z",
+        "gender": "Other",
+        "medical_history": "Diabetes",
+        "created_at": "2023-08-23T16:33:12.139Z",
+        "updated_at": "2023-08-23T09:59:47.584Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d86a5f67-360a-4958-b5db-2d6f7e97f24b",
+        "dob": "2023-08-23T10:47:37.019Z",
+        "gender": "Prefer not to say",
+        "medical_history": "High blood pressure",
+        "created_at": "2023-08-23T09:58:58.994Z",
+        "updated_at": "2023-08-23T18:36:39.345Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8a7d63b-ab60-4901-ae4f-63434b4be38a",
+        "dob": "2023-08-23T07:48:54.144Z",
+        "gender": "Unknown",
+        "medical_history": "Allergies",
+        "created_at": "2023-08-23T11:06:26.075Z",
+        "updated_at": "2023-08-23T22:29:48.902Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "7886e41b-8b5e-47b1-bbbd-46edff2b0ba5",
+        "specialization": "Cardiology",
+        "experience": 97458,
+        "qualification": "MD",
+        "availability": true,
+        "created_at": "2023-08-23T21:01:15.948Z",
+        "updated_at": "2023-08-24T01:28:23.133Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a4fe044-f372-4fd4-93ec-abec847abc4c",
+        "specialization": "Dermatology",
+        "experience": 14933,
+        "qualification": "DO",
+        "availability": false,
+        "created_at": "2023-08-24T04:32:45.374Z",
+        "updated_at": "2023-08-23T21:56:06.163Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f62af141-7026-42e2-a46b-09ee95dc0415",
+        "specialization": "Orthopedics",
+        "experience": 33117,
+        "qualification": "MBBS",
+        "availability": false,
+        "created_at": "2023-08-23T15:00:27.266Z",
+        "updated_at": "2023-08-23T18:21:14.775Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a75ad9c-1936-481f-9722-ad9bd071c07d",
+        "specialization": "Pediatrics",
+        "experience": 95900,
+        "qualification": "PhD",
+        "availability": false,
+        "created_at": "2023-08-23T07:40:42.764Z",
+        "updated_at": "2023-08-24T00:29:03.268Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12e05432-c93d-4a9c-8839-524285d2df0d",
+        "specialization": "Oncology",
+        "experience": 48395,
+        "qualification": "DDS",
+        "availability": true,
+        "created_at": "2023-08-23T13:25:25.867Z",
+        "updated_at": "2023-08-23T21:48:00.155Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "e3597cd8-ad15-4d4c-b4d1-23f65cd496a2",
+        "date": "2023-08-23T13:26:20.312Z",
+        "time": "2023-08-23T23:20:46.775Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-23T12:46:33.055Z",
+        "updated_at": "2023-08-24T04:35:13.940Z",
+        "healthcare_provider_id": "8a4fe044-f372-4fd4-93ec-abec847abc4c",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eaad99b5-7af6-41be-a537-0abd06c13b00",
+        "date": "2023-08-23T15:50:44.801Z",
+        "time": "2023-08-23T11:21:18.879Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T14:47:35.217Z",
+        "updated_at": "2023-08-23T18:54:18.681Z",
+        "healthcare_provider_id": "f62af141-7026-42e2-a46b-09ee95dc0415",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd5d58c5-cb20-48be-82a8-94b8f0fd4b2b",
+        "date": "2023-08-23T17:18:14.959Z",
+        "time": "2023-08-23T23:48:59.507Z",
+        "status": "Completed",
+        "created_at": "2023-08-23T09:55:05.171Z",
+        "updated_at": "2023-08-23T14:56:50.506Z",
+        "healthcare_provider_id": "8a4fe044-f372-4fd4-93ec-abec847abc4c",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "059cd453-1781-4000-b8a2-3e9d13385a00",
+        "date": "2023-08-23T19:55:58.264Z",
+        "time": "2023-08-23T17:33:41.451Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T17:39:44.893Z",
+        "updated_at": "2023-08-23T18:59:54.970Z",
+        "healthcare_provider_id": "7886e41b-8b5e-47b1-bbbd-46edff2b0ba5",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae3a627f-fa99-41c0-bd2c-e1581b08245f",
+        "date": "2023-08-23T16:21:49.806Z",
+        "time": "2023-08-23T07:25:47.792Z",
+        "status": "No show",
+        "created_at": "2023-08-23T18:52:45.168Z",
+        "updated_at": "2023-08-23T08:08:49.206Z",
+        "healthcare_provider_id": "12e05432-c93d-4a9c-8839-524285d2df0d",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ad2c3bc9-bbf6-439f-9d95-30186fa69226",
+        "email": "Valerie.Toy@gmail.com",
+        "firstName": "Chyna",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1082.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6278f1d8-32fd-4f7e-b99f-3ad477c011be",
+        "email": "Amelia37@yahoo.com",
+        "firstName": "Jalen",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1131.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "673a180a-ec2a-48fc-a6bf-99cd01ef1a23",
+        "email": "Shanna.Lesch@gmail.com",
+        "firstName": "Ike",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70006185",
+        "tenantId": null
+      },
+      {
+        "reference": "6493385e-0bf9-46d5-8624-886f7d39b806",
+        "email": "Tabitha28@gmail.com",
+        "firstName": "Garret",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/320.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec10cef4-acf0-4690-812b-7ac8e06cf01e",
+        "email": "Otis32@yahoo.com",
+        "firstName": "Lucius",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57747379",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "receptionist": [
+      {
+        "id": "c94f0f69-654b-42bf-a010-b9a90eaa7512",
+        "shift": "Morning",
+        "created_at": "2023-08-24T00:05:43.518Z",
+        "updated_at": "2023-08-23T06:24:24.242Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06a5648c-2f77-4554-bb4d-49f25f98bbac",
+        "shift": "Afternoon",
+        "created_at": "2023-08-23T19:48:49.152Z",
+        "updated_at": "2023-08-23T11:53:31.477Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88a30ac4-c1c6-4fa9-b4cb-23009d576e1a",
+        "shift": "Evening",
+        "created_at": "2023-08-23T08:46:58.678Z",
+        "updated_at": "2023-08-23T17:28:20.863Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22515b91-23a8-4cf2-9eb7-6907798e96f8",
+        "shift": "Night",
+        "created_at": "2023-08-23T12:38:33.397Z",
+        "updated_at": "2023-08-23T21:42:33.768Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9fd67bc-efc9-4cbf-900d-2beaa3aa02a3",
+        "shift": "Weekend",
+        "created_at": "2023-08-23T23:57:31.950Z",
+        "updated_at": "2023-08-23T12:06:44.267Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "8671f972-384b-4ed3-8acb-4a8e70a7443c",
+        "dob": "2023-08-23T20:47:53.209Z",
+        "gender": "Male",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-08-23T21:49:20.910Z",
+        "updated_at": "2023-08-24T01:32:09.200Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c2a4681-5a3a-4c05-91de-383abbc9aeba",
+        "dob": "2023-08-23T15:01:26.901Z",
+        "gender": "Female",
+        "medical_history": "Asthma",
+        "created_at": "2023-08-23T10:47:35.211Z",
+        "updated_at": "2023-08-23T14:31:04.398Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3632d5a8-d523-4eca-b293-87853f620545",
+        "dob": "2023-08-23T14:06:11.722Z",
+        "gender": "Other",
+        "medical_history": "Diabetes",
+        "created_at": "2023-08-23T06:29:09.399Z",
+        "updated_at": "2023-08-24T02:21:54.146Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fd5980d-fac0-4d9b-b335-319c5f116ed6",
+        "dob": "2023-08-24T04:09:02.326Z",
+        "gender": "Prefer not to say",
+        "medical_history": "High blood pressure",
+        "created_at": "2023-08-24T00:14:46.985Z",
+        "updated_at": "2023-08-23T23:59:12.319Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13969837-4b6c-46c1-82b6-b2d473c9f34c",
+        "dob": "2023-08-23T11:41:01.442Z",
+        "gender": "Unknown",
+        "medical_history": "Depression",
+        "created_at": "2023-08-23T12:52:35.317Z",
+        "updated_at": "2023-08-24T02:35:54.628Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "cd1b0b2e-231e-4db3-99d7-c3dde0ea9adf",
+        "specialization": "Cardiology",
+        "experience": 42330,
+        "qualification": "MD",
+        "availability": true,
+        "created_at": "2023-08-23T15:30:31.303Z",
+        "updated_at": "2023-08-24T01:53:39.306Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efd7d435-e139-45d3-84d5-b1fc96553544",
+        "specialization": "Pediatrics",
+        "experience": 49936,
+        "qualification": "DO",
+        "availability": true,
+        "created_at": "2023-08-23T10:39:44.831Z",
+        "updated_at": "2023-08-23T12:28:35.994Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc174355-451f-42c0-ba2e-2bc6d7eaef5e",
+        "specialization": "Dermatology",
+        "experience": 24256,
+        "qualification": "MBBS",
+        "availability": true,
+        "created_at": "2023-08-24T03:55:03.041Z",
+        "updated_at": "2023-08-23T15:19:02.468Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b955eae1-1e49-4702-8f03-f9855837314a",
+        "specialization": "Orthopedics",
+        "experience": 4476,
+        "qualification": "BDS",
+        "availability": false,
+        "created_at": "2023-08-23T21:22:44.917Z",
+        "updated_at": "2023-08-24T01:58:38.977Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84ccb1c6-1db6-4add-a503-3c18f8de3a14",
+        "specialization": "Ophthalmology",
+        "experience": 51938,
+        "qualification": "PhD",
+        "availability": true,
+        "created_at": "2023-08-24T03:51:45.788Z",
+        "updated_at": "2023-08-23T17:31:56.175Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "511989c5-75ac-41c3-b61f-453ec4987b6e",
+        "date": "2023-08-23T21:26:21.332Z",
+        "time": "2023-08-23T15:48:32.453Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-23T06:28:03.226Z",
+        "updated_at": "2023-08-23T05:16:21.918Z",
+        "healthcare_provider_id": "b955eae1-1e49-4702-8f03-f9855837314a",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "201861be-6bb6-4f3d-88ed-45476cd0a147",
+        "date": "2023-08-24T03:05:44.819Z",
+        "time": "2023-08-23T16:05:04.220Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T15:29:31.301Z",
+        "updated_at": "2023-08-23T22:57:17.207Z",
+        "healthcare_provider_id": "bc174355-451f-42c0-ba2e-2bc6d7eaef5e",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1d97492-6329-4648-8767-114f8d901994",
+        "date": "2023-08-24T02:35:51.240Z",
+        "time": "2023-08-24T01:11:56.961Z",
+        "status": "Completed",
+        "created_at": "2023-08-23T13:07:04.555Z",
+        "updated_at": "2023-08-23T19:20:45.953Z",
+        "healthcare_provider_id": "b955eae1-1e49-4702-8f03-f9855837314a",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fafd35e-0b0b-4a5e-a5ea-90d77239e1d2",
+        "date": "2023-08-23T16:32:27.065Z",
+        "time": "2023-08-24T00:34:55.163Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T10:27:36.631Z",
+        "updated_at": "2023-08-23T11:33:52.019Z",
+        "healthcare_provider_id": "84ccb1c6-1db6-4add-a503-3c18f8de3a14",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6df5ec38-761c-4d9d-8d62-3276691256ab",
+        "date": "2023-08-23T21:20:35.701Z",
+        "time": "2023-08-24T03:57:40.957Z",
+        "status": "No-show",
+        "created_at": "2023-08-23T21:56:50.698Z",
+        "updated_at": "2023-08-24T04:26:03.461Z",
+        "healthcare_provider_id": "cd1b0b2e-231e-4db3-99d7-c3dde0ea9adf",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4e8de87f-76ec-4a40-9735-eff24f4286bb",
+        "email": "Garnett67@yahoo.com",
+        "firstName": "Albina",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60346499",
+        "tenantId": null
+      },
+      {
+        "reference": "d0d53560-f969-44d5-a9f7-b19f62cfc4ec",
+        "email": "Lorenza.Ledner52@gmail.com",
+        "firstName": "Donny",
+        "lastName": "Moore-Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28414881",
+        "tenantId": null
+      },
+      {
+        "reference": "126d7737-bee0-46f5-b18a-37afc3807b6a",
+        "email": "Anastasia.Schmitt88@yahoo.com",
+        "firstName": "Dereck",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/2.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a034b259-f8f8-4d0e-8195-c3c12938f0e1",
+        "email": "Adam_Stokes-Rutherford@gmail.com",
+        "firstName": "Eloy",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16722503",
+        "tenantId": null
+      },
+      {
+        "reference": "1cc758f8-aa59-4d77-8096-d76753e9826b",
+        "email": "Lauriane_Bogan@hotmail.com",
+        "firstName": "George",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/505.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "receptionist": [
+      {
+        "id": "54dddefe-e184-443e-98b9-a449eeb538f4",
+        "shift": "Morning",
+        "created_at": "2023-08-24T02:36:50.752Z",
+        "updated_at": "2023-08-23T10:14:21.669Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4197047d-3b57-435b-9b7b-7509c10101c1",
+        "shift": "Afternoon",
+        "created_at": "2023-08-23T07:28:26.062Z",
+        "updated_at": "2023-08-23T07:19:18.386Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6d7cf03-de02-470a-ae74-53cee2aa350b",
+        "shift": "Evening",
+        "created_at": "2023-08-23T21:05:45.374Z",
+        "updated_at": "2023-08-23T22:02:28.609Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77b85b1d-a878-4d22-8d8a-d81e3d905768",
+        "shift": "Night",
+        "created_at": "2023-08-23T15:39:55.447Z",
+        "updated_at": "2023-08-23T23:41:03.372Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b632b088-f821-4d5b-8600-1f9a585d88b1",
+        "shift": "Weekend",
+        "created_at": "2023-08-23T09:29:46.184Z",
+        "updated_at": "2023-08-24T05:00:05.824Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "f55818fe-1456-49ef-9488-5d6ac2a87852",
+        "dob": "2023-08-23T19:48:33.007Z",
+        "gender": "Male",
+        "medical_history": "No significant medical history",
+        "created_at": "2023-08-24T04:20:09.720Z",
+        "updated_at": "2023-08-24T01:28:47.087Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "043e1b81-c6c9-4ee8-b859-618253f5a42a",
+        "dob": "2023-08-23T19:42:22.809Z",
+        "gender": "Female",
+        "medical_history": "Asthma",
+        "created_at": "2023-08-24T03:46:41.360Z",
+        "updated_at": "2023-08-23T15:37:08.635Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa4e3921-827f-4e91-8946-2241fc732908",
+        "dob": "2023-08-24T03:01:59.408Z",
+        "gender": "Other",
+        "medical_history": "Diabetes",
+        "created_at": "2023-08-23T17:59:05.720Z",
+        "updated_at": "2023-08-23T07:10:02.699Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "069e7e41-1366-4c37-8724-d0fc3008c7db",
+        "dob": "2023-08-23T23:21:55.915Z",
+        "gender": "Prefer not to say",
+        "medical_history": "High blood pressure",
+        "created_at": "2023-08-23T05:58:42.884Z",
+        "updated_at": "2023-08-23T23:17:20.745Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bf1017d-33f6-46d4-8aa2-9c22efd0d1f1",
+        "dob": "2023-08-23T11:48:59.534Z",
+        "gender": "Unknown",
+        "medical_history": "Allergies",
+        "created_at": "2023-08-23T05:38:56.462Z",
+        "updated_at": "2023-08-24T00:02:02.868Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "56c9d738-e798-4d70-b383-25ffa17dd208",
+        "specialization": "Cardiology",
+        "experience": 57689,
+        "qualification": "MD",
+        "availability": true,
+        "created_at": "2023-08-23T07:45:12.499Z",
+        "updated_at": "2023-08-23T14:08:43.076Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbbb7f05-d73a-4a2e-8934-cfce61f4b66f",
+        "specialization": "Dermatology",
+        "experience": 66849,
+        "qualification": "DO",
+        "availability": false,
+        "created_at": "2023-08-23T10:46:10.551Z",
+        "updated_at": "2023-08-23T16:51:11.330Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfe3f5a8-25e4-4d8b-84f9-2227b9d36f52",
+        "specialization": "Gastroenterology",
+        "experience": 72494,
+        "qualification": "MBBS",
+        "availability": false,
+        "created_at": "2023-08-23T11:26:23.614Z",
+        "updated_at": "2023-08-23T12:20:08.161Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "587e7061-4f87-49fc-b3c1-c15e005f0045",
+        "specialization": "Neurology",
+        "experience": 12730,
+        "qualification": "BDS",
+        "availability": false,
+        "created_at": "2023-08-23T22:04:02.730Z",
+        "updated_at": "2023-08-23T19:19:42.732Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c622469-5613-4a3f-9875-d3b35a7d6da3",
+        "specialization": "Orthopedics",
+        "experience": 29839,
+        "qualification": "PhD",
+        "availability": false,
+        "created_at": "2023-08-23T09:52:34.224Z",
+        "updated_at": "2023-08-24T04:10:52.342Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "cf833fa8-4612-4627-9b78-3303af7b389b",
+        "date": "2023-08-23T06:21:17.310Z",
+        "time": "2023-08-23T23:28:10.275Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-23T11:38:01.588Z",
+        "updated_at": "2023-08-24T04:37:57.301Z",
+        "healthcare_provider_id": "dfe3f5a8-25e4-4d8b-84f9-2227b9d36f52",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc0e6d4f-3429-467c-b369-427855765c92",
+        "date": "2023-08-23T23:50:49.089Z",
+        "time": "2023-08-23T11:09:20.148Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T09:53:07.846Z",
+        "updated_at": "2023-08-23T11:47:36.030Z",
+        "healthcare_provider_id": "dfe3f5a8-25e4-4d8b-84f9-2227b9d36f52",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d896d432-e302-467b-874a-a3ce6f33a288",
+        "date": "2023-08-23T12:53:48.607Z",
+        "time": "2023-08-23T14:01:31.630Z",
+        "status": "Completed",
+        "created_at": "2023-08-23T08:07:36.046Z",
+        "updated_at": "2023-08-24T03:55:37.034Z",
+        "healthcare_provider_id": "4c622469-5613-4a3f-9875-d3b35a7d6da3",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84867e7c-ac68-4f44-9c96-35d225989b5d",
+        "date": "2023-08-23T17:57:36.096Z",
+        "time": "2023-08-23T18:58:00.578Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-23T09:42:59.840Z",
+        "updated_at": "2023-08-24T00:06:11.521Z",
+        "healthcare_provider_id": "4c622469-5613-4a3f-9875-d3b35a7d6da3",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99fb1b0a-4682-4a2e-a87e-1fa64f07ba86",
+        "date": "2023-08-23T15:47:06.350Z",
+        "time": "2023-08-23T23:09:40.576Z",
+        "status": "No-show",
+        "created_at": "2023-08-23T19:26:20.223Z",
+        "updated_at": "2023-08-23T08:28:14.534Z",
+        "healthcare_provider_id": "dfe3f5a8-25e4-4d8b-84f9-2227b9d36f52",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0d5800f8-1360-4abd-b23b-8c4347016f9e",
+        "email": "Verona.Tillman@gmail.com",
+        "firstName": "Sadie",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/66.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c0ed9b82-4df6-4ee7-a6a2-f5486865f895",
+        "email": "Ewald4@hotmail.com",
+        "firstName": "Frieda",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/206.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "190c4868-891a-4d7e-9bca-0d037ea16c45",
+        "email": "Noah.Muller@hotmail.com",
+        "firstName": "Carter",
+        "lastName": "Howell-Cruickshank",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/594.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "45151ef7-489e-425f-b813-a057d037247b",
+        "email": "Jayson_Herzog@hotmail.com",
+        "firstName": "Horace",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41200834",
+        "tenantId": null
+      },
+      {
+        "reference": "8e35d878-bf96-4316-b8b5-77c3901dc79b",
+        "email": "Kole.Walsh-Armstrong@gmail.com",
+        "firstName": "Darron",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53947202",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "receptionist": [
+      {
+        "id": "b109ce0a-a940-4324-be6a-9fdf4eaae0db",
+        "shift": "Morning",
+        "created_at": "2023-08-23T11:33:24.656Z",
+        "updated_at": "2023-08-23T13:26:08.505Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2ec5e1b-bd81-4f5c-a1d8-e8de212baded",
+        "shift": "Afternoon",
+        "created_at": "2023-08-24T02:42:12.843Z",
+        "updated_at": "2023-08-23T10:58:00.425Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "374ed377-2a1c-402d-a7a4-62775a861f84",
+        "shift": "Evening",
+        "created_at": "2023-08-23T10:34:07.192Z",
+        "updated_at": "2023-08-23T10:50:11.055Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b41b408-c696-4cc0-a58a-6e38fdc276e4",
+        "shift": "Night",
+        "created_at": "2023-08-24T00:41:47.495Z",
+        "updated_at": "2023-08-23T21:35:06.283Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f7288d3-9028-4d67-ba9e-6cc106394abd",
+        "shift": "Weekend",
+        "created_at": "2023-08-24T03:37:50.835Z",
+        "updated_at": "2023-08-24T03:02:05.793Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "3b854ae2-740f-4d9b-a387-48f27e127c0f",
+        "dob": "2023-08-23T09:41:18.642Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "created_at": "2023-08-23T19:30:24.662Z",
+        "updated_at": "2023-08-23T09:08:14.054Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61e83919-bc5d-4e53-bc06-850acabf467a",
+        "dob": "2023-08-24T00:33:36.434Z",
+        "gender": "Female",
+        "medical_history": "Asthma",
+        "created_at": "2023-08-23T12:01:36.903Z",
+        "updated_at": "2023-08-23T19:19:10.725Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bd48544-78e1-4ff8-b547-97ca2043b2e6",
+        "dob": "2023-08-23T07:40:06.610Z",
+        "gender": "Other",
+        "medical_history": "Diabetes",
+        "created_at": "2023-08-23T16:50:25.110Z",
+        "updated_at": "2023-08-23T08:27:18.165Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "502cbf1a-9b8f-4fc6-8079-cb28d2a4ecc0",
+        "dob": "2023-08-23T19:21:44.794Z",
+        "gender": "Prefer not to say",
+        "medical_history": "High blood pressure",
+        "created_at": "2023-08-23T23:10:02.611Z",
+        "updated_at": "2023-08-23T22:41:08.095Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67d5d2a7-23b4-47a1-a163-21e6a17bdf90",
+        "dob": "2023-08-23T20:07:58.862Z",
+        "gender": "Unknown",
+        "medical_history": "Allergies",
+        "created_at": "2023-08-23T16:12:02.953Z",
+        "updated_at": "2023-08-23T22:59:34.367Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "2b652596-c3d0-4543-884b-fc2178d31afd",
+        "specialization": "Cardiology",
+        "experience": 89097,
+        "qualification": "MD",
+        "availability": false,
+        "created_at": "2023-08-23T09:36:13.132Z",
+        "updated_at": "2023-08-23T07:05:07.980Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5d63b95-1d51-47a3-a64f-fba0fe0710bb",
+        "specialization": "Dermatology",
+        "experience": 25351,
+        "qualification": "DO",
+        "availability": true,
+        "created_at": "2023-08-23T13:25:18.172Z",
+        "updated_at": "2023-08-23T09:42:42.733Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4abd0914-34c3-4a56-b41b-acd509b89c62",
+        "specialization": "Gastroenterology",
+        "experience": 88520,
+        "qualification": "MBBS",
+        "availability": true,
+        "created_at": "2023-08-24T00:48:25.182Z",
+        "updated_at": "2023-08-23T13:45:36.359Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51920b9c-dbde-4681-b1b9-8b899e86bb9e",
+        "specialization": "Neurology",
+        "experience": 38310,
+        "qualification": "BDS",
+        "availability": true,
+        "created_at": "2023-08-23T17:42:52.488Z",
+        "updated_at": "2023-08-24T02:45:29.665Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "796245b0-0176-483d-948a-cccf855b85ba",
+        "specialization": "Orthopedics",
+        "experience": 20368,
+        "qualification": "PhD",
+        "availability": false,
+        "created_at": "2023-08-23T17:41:53.152Z",
+        "updated_at": "2023-08-23T11:50:54.994Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "5067a7d5-b345-4f27-b9d0-c147c4965ba5",
+        "date": "2023-08-23T10:43:30.015Z",
+        "time": "2023-08-23T20:41:17.616Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-23T20:05:31.210Z",
+        "updated_at": "2023-08-23T23:22:31.925Z",
+        "healthcare_provider_id": "796245b0-0176-483d-948a-cccf855b85ba",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a2b4f7c-7f64-4e06-8a6a-d03eb2c31108",
+        "date": "2023-08-23T17:21:45.828Z",
+        "time": "2023-08-23T19:40:37.113Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T09:16:56.927Z",
+        "updated_at": "2023-08-24T00:44:19.768Z",
+        "healthcare_provider_id": "796245b0-0176-483d-948a-cccf855b85ba",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf337c6c-4c3b-4c86-857e-9c11db9dd2a3",
+        "date": "2023-08-23T15:11:54.432Z",
+        "time": "2023-08-23T20:36:51.013Z",
+        "status": "Completed",
+        "created_at": "2023-08-23T07:54:36.851Z",
+        "updated_at": "2023-08-23T18:34:18.722Z",
+        "healthcare_provider_id": "2b652596-c3d0-4543-884b-fc2178d31afd",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1588186e-84ce-4eda-883b-42cc57bf27c9",
+        "date": "2023-08-23T12:08:03.352Z",
+        "time": "2023-08-23T06:14:48.819Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T01:23:01.155Z",
+        "updated_at": "2023-08-23T16:19:56.457Z",
+        "healthcare_provider_id": "2b652596-c3d0-4543-884b-fc2178d31afd",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c179228-6588-4eb8-bb8c-061fec302dc5",
+        "date": "2023-08-23T10:13:52.580Z",
+        "time": "2023-08-23T20:25:07.201Z",
+        "status": "No-show",
+        "created_at": "2023-08-23T17:05:49.936Z",
+        "updated_at": "2023-08-23T23:28:53.826Z",
+        "healthcare_provider_id": "51920b9c-dbde-4681-b1b9-8b899e86bb9e",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6bdabebc-d1d8-4626-a014-b7e873ef11b0",
+        "email": "Ocie_Marvin46@hotmail.com",
+        "firstName": "Eliseo",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/760.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "44dc0747-f56b-4a3d-9a70-3798404fdece",
+        "email": "Sebastian.OKeefe78@gmail.com",
+        "firstName": "Winfield",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/70.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "711b5a0d-9207-4e4f-a623-5ee8eaabb740",
+        "email": "Allen.Schroeder98@yahoo.com",
+        "firstName": "Ladarius",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/598.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "422e5ec6-af01-4803-91d2-10296fc4c53a",
+        "email": "Skye8@hotmail.com",
+        "firstName": "Jennifer",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1128.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bbb08edd-4c18-4f87-820e-a0192cb3fb3f",
+        "email": "Lew18@gmail.com",
+        "firstName": "Stanton",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/72.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "receptionist": [
+      {
+        "id": "7cc51618-542b-4d73-b9e7-b07aa029ad6f",
+        "shift": "Morning",
+        "created_at": "2023-08-23T07:02:03.250Z",
+        "updated_at": "2023-08-23T18:02:32.895Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84e9c29d-35b0-47a4-bc14-cf28575cc872",
+        "shift": "Afternoon",
+        "created_at": "2023-08-23T07:56:23.863Z",
+        "updated_at": "2023-08-23T10:40:31.805Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f51f033-9f17-47e0-a9de-6150f15ccfcb",
+        "shift": "Evening",
+        "created_at": "2023-08-23T14:31:10.721Z",
+        "updated_at": "2023-08-23T09:03:19.947Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de8a3fd2-a42a-4651-bd7e-6a78adff1b4c",
+        "shift": "Night",
+        "created_at": "2023-08-23T13:36:51.058Z",
+        "updated_at": "2023-08-23T21:32:11.108Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31b7dc7e-099f-4261-9a02-669fc6921053",
+        "shift": "Weekend",
+        "created_at": "2023-08-23T21:51:29.827Z",
+        "updated_at": "2023-08-23T19:41:47.136Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "patient": [
+      {
+        "id": "3b703ba5-ed32-4891-beb6-6bbf30e443fb",
+        "dob": "2023-08-23T05:29:32.107Z",
+        "gender": "Male",
+        "medical_history": "No known medical conditions",
+        "created_at": "2023-08-23T22:34:00.642Z",
+        "updated_at": "2023-08-23T08:08:35.955Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dcc1802-7be2-40be-bb15-c34d687f9795",
+        "dob": "2023-08-23T07:53:26.850Z",
+        "gender": "Female",
+        "medical_history": "Asthma",
+        "created_at": "2023-08-24T01:46:14.034Z",
+        "updated_at": "2023-08-24T04:19:32.549Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22cd12ee-aa6e-456a-86c3-6f83b09da94a",
+        "dob": "2023-08-24T03:36:21.584Z",
+        "gender": "Non-binary",
+        "medical_history": "Diabetes",
+        "created_at": "2023-08-23T10:30:08.429Z",
+        "updated_at": "2023-08-23T16:59:48.540Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6db3db64-7824-492a-b4f5-a8b47412dcfa",
+        "dob": "2023-08-23T17:29:47.939Z",
+        "gender": "Prefer not to say",
+        "medical_history": "High blood pressure",
+        "created_at": "2023-08-23T06:27:36.193Z",
+        "updated_at": "2023-08-23T15:25:09.253Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10e5fad7-15e7-4203-a3aa-ea6a5b69bdd1",
+        "dob": "2023-08-23T13:52:38.490Z",
+        "gender": "Other",
+        "medical_history": "Depression",
+        "created_at": "2023-08-23T21:56:14.699Z",
+        "updated_at": "2023-08-23T18:37:35.311Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "healthcare_provider": [
+      {
+        "id": "163b7223-97da-4e36-8eec-d9c32fad3a20",
+        "specialization": "Cardiology",
+        "experience": 7082,
+        "qualification": "MD",
+        "availability": false,
+        "created_at": "2023-08-23T09:10:35.786Z",
+        "updated_at": "2023-08-23T17:41:15.011Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28e3ae57-9fa2-43b3-84f5-e5d0a41a26e6",
+        "specialization": "Dermatology",
+        "experience": 39884,
+        "qualification": "DO",
+        "availability": false,
+        "created_at": "2023-08-24T02:22:35.193Z",
+        "updated_at": "2023-08-23T17:13:12.867Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f7e5737-4714-4122-9f66-6f087d12bebd",
+        "specialization": "Orthopedics",
+        "experience": 37304,
+        "qualification": "MBBS",
+        "availability": false,
+        "created_at": "2023-08-23T16:04:08.833Z",
+        "updated_at": "2023-08-23T11:31:01.667Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1753b10-3a33-4b1d-8360-2f07dab7b915",
+        "specialization": "Pediatrics",
+        "experience": 88914,
+        "qualification": "BDS",
+        "availability": false,
+        "created_at": "2023-08-24T02:14:15.330Z",
+        "updated_at": "2023-08-23T15:53:27.996Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9eb06ca9-6968-4f6b-9e6b-51c715ea595d",
+        "specialization": "Psychiatry",
+        "experience": 92409,
+        "qualification": "PhD",
+        "availability": true,
+        "created_at": "2023-08-23T16:34:15.288Z",
+        "updated_at": "2023-08-24T00:51:52.149Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "8d867751-dc28-4be3-9c7b-58baff0f593d",
+        "date": "2023-08-24T04:10:39.009Z",
+        "time": "2023-08-23T22:36:07.583Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-24T01:32:23.120Z",
+        "updated_at": "2023-08-23T21:39:29.670Z",
+        "healthcare_provider_id": "0f7e5737-4714-4122-9f66-6f087d12bebd",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38f2f029-9053-456e-bc02-16dd8624a4a9",
+        "date": "2023-08-23T10:04:01.336Z",
+        "time": "2023-08-23T11:17:42.287Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-23T12:02:53.689Z",
+        "updated_at": "2023-08-23T20:39:58.642Z",
+        "healthcare_provider_id": "9eb06ca9-6968-4f6b-9e6b-51c715ea595d",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d8439af-c414-4f08-b279-c3e2088e3732",
+        "date": "2023-08-23T18:44:29.565Z",
+        "time": "2023-08-23T08:26:15.992Z",
+        "status": "Completed",
+        "created_at": "2023-08-24T04:51:16.137Z",
+        "updated_at": "2023-08-23T17:08:17.591Z",
+        "healthcare_provider_id": "a1753b10-3a33-4b1d-8360-2f07dab7b915",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66a90b3b-8b20-4d59-955c-94867111a178",
+        "date": "2023-08-23T07:17:54.765Z",
+        "time": "2023-08-23T05:09:25.743Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-24T01:03:43.147Z",
+        "updated_at": "2023-08-23T20:22:19.155Z",
+        "healthcare_provider_id": "163b7223-97da-4e36-8eec-d9c32fad3a20",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a470283-c481-43e2-8b58-5b78cf4e5ca4",
+        "date": "2023-08-23T12:45:18.788Z",
+        "time": "2023-08-23T08:38:34.950Z",
+        "status": "Pending",
+        "created_at": "2023-08-23T11:37:38.326Z",
+        "updated_at": "2023-08-23T19:35:11.110Z",
+        "healthcare_provider_id": "28e3ae57-9fa2-43b3-84f5-e5d0a41a26e6",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "67281ef3-b164-43fe-a814-520b7a74ecfd",
+        "email": "Delfina.Medhurst53@yahoo.com",
+        "firstName": "Jose",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/413.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e3d6bd94-95a3-47c7-a959-f9ca1736d52f",
+        "email": "Lester90@hotmail.com",
+        "firstName": "Katrine",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/92.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "863e47b7-6872-4032-8e36-08065c80e7b7",
+        "email": "Eino_Goldner63@hotmail.com",
+        "firstName": "Karolann",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51855454",
+        "tenantId": null
+      },
+      {
+        "reference": "d498d370-387c-4dbc-a6ad-3f6adfe13391",
+        "email": "Koby.Jacobi@gmail.com",
+        "firstName": "Santiago",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/589.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ebedf150-1d2c-47dd-9cf2-1ee5a103d31c",
+        "email": "Savanna13@hotmail.com",
+        "firstName": "Barry",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33481278",
+        "tenantId": null
+      }
+    ]
+  }
+]
